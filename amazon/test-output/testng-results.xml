@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-26T16:01:11 IST" name="Suite" finished-at="2022-06-26T16:08:53 IST" duration-ms="462245">
+    <groups>
+    </groups>
+    <test started-at="2022-06-26T16:01:11 IST" name="CromeTest" finished-at="2022-06-26T16:03:44 IST" duration-ms="152929">
+      <class name="testclasses.VerifyHeaderHomePage">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testclasses.VerifyHeaderHomePage@9225652]" started-at="2022-06-26T16:01:11 IST" name="launchBrowser" finished-at="2022-06-26T16:01:28 IST" duration-ms="17262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="POMObject()[pri:0, instance:testclasses.VerifyHeaderHomePage@9225652]" started-at="2022-06-26T16:01:28 IST" name="POMObject" finished-at="2022-06-26T16:01:28 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- POMObject -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:testclasses.VerifyHeaderHomePage@9225652]" started-at="2022-06-26T16:01:28 IST" name="loginToApplication" finished-at="2022-06-26T16:01:56 IST" duration-ms="27869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="search()[pri:1, instance:testclasses.VerifyHeaderHomePage@9225652]" started-at="2022-06-26T16:01:56 IST" name="search" finished-at="2022-06-26T16:02:27 IST" duration-ms="30386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="logoutToApplication()[pri:0, instance:testclasses.VerifyHeaderHomePage@9225652]" started-at="2022-06-26T16:02:27 IST" name="logoutToApplication" finished-at="2022-06-26T16:02:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutToApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:testclasses.VerifyHeaderHomePage@9225652]" started-at="2022-06-26T16:02:27 IST" name="loginToApplication" finished-at="2022-06-26T16:02:56 IST" duration-ms="29098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="urlandtitleverfy()[pri:2, instance:testclasses.VerifyHeaderHomePage@9225652]" started-at="2022-06-26T16:02:56 IST" name="urlandtitleverfy" finished-at="2022-06-26T16:02:56 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlandtitleverfy -->
+        <test-method is-config="true" signature="logoutToApplication()[pri:0, instance:testclasses.VerifyHeaderHomePage@9225652]" started-at="2022-06-26T16:02:56 IST" name="logoutToApplication" finished-at="2022-06-26T16:02:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutToApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:testclasses.VerifyHeaderHomePage@9225652]" started-at="2022-06-26T16:02:56 IST" name="loginToApplication" finished-at="2022-06-26T16:03:06 IST" duration-ms="9815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="searchByAllCategory()[pri:3, instance:testclasses.VerifyHeaderHomePage@9225652]" started-at="2022-06-26T16:03:06 IST" name="searchByAllCategory" finished-at="2022-06-26T16:03:43 IST" duration-ms="37184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByAllCategory -->
+        <test-method is-config="true" signature="logoutToApplication()[pri:0, instance:testclasses.VerifyHeaderHomePage@9225652]" started-at="2022-06-26T16:03:43 IST" name="logoutToApplication" finished-at="2022-06-26T16:03:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutToApplication -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:testclasses.VerifyHeaderHomePage@9225652]" started-at="2022-06-26T16:03:43 IST" name="clearObject" finished-at="2022-06-26T16:03:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:testclasses.VerifyHeaderHomePage@9225652]" started-at="2022-06-26T16:03:43 IST" name="CloseBrowser" finished-at="2022-06-26T16:03:44 IST" duration-ms="924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- testclasses.VerifyHeaderHomePage -->
+    </test> <!-- CromeTest -->
+    <test started-at="2022-06-26T16:03:44 IST" name="FirefoxTest" finished-at="2022-06-26T16:05:22 IST" duration-ms="97504">
+      <class name="testclasses.VerifyHeaderHomePage">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testclasses.VerifyHeaderHomePage@1ab3a8c8]" started-at="2022-06-26T16:03:44 IST" name="launchBrowser" finished-at="2022-06-26T16:04:20 IST" duration-ms="35972" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="POMObject()[pri:0, instance:testclasses.VerifyHeaderHomePage@1ab3a8c8]" started-at="2022-06-26T16:04:20 IST" name="POMObject" finished-at="2022-06-26T16:04:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- POMObject -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:testclasses.VerifyHeaderHomePage@1ab3a8c8]" started-at="2022-06-26T16:04:20 IST" name="loginToApplication" finished-at="2022-06-26T16:04:39 IST" duration-ms="19107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="search()[pri:1, instance:testclasses.VerifyHeaderHomePage@1ab3a8c8]" started-at="2022-06-26T16:04:39 IST" name="search" finished-at="2022-06-26T16:04:56 IST" duration-ms="16893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="logoutToApplication()[pri:0, instance:testclasses.VerifyHeaderHomePage@1ab3a8c8]" started-at="2022-06-26T16:04:56 IST" name="logoutToApplication" finished-at="2022-06-26T16:04:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutToApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:testclasses.VerifyHeaderHomePage@1ab3a8c8]" started-at="2022-06-26T16:04:56 IST" name="loginToApplication" finished-at="2022-06-26T16:05:06 IST" duration-ms="10460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="urlandtitleverfy()[pri:2, instance:testclasses.VerifyHeaderHomePage@1ab3a8c8]" started-at="2022-06-26T16:05:06 IST" name="urlandtitleverfy" finished-at="2022-06-26T16:05:07 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlandtitleverfy -->
+        <test-method is-config="true" signature="logoutToApplication()[pri:0, instance:testclasses.VerifyHeaderHomePage@1ab3a8c8]" started-at="2022-06-26T16:05:07 IST" name="logoutToApplication" finished-at="2022-06-26T16:05:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutToApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:testclasses.VerifyHeaderHomePage@1ab3a8c8]" started-at="2022-06-26T16:05:07 IST" name="loginToApplication" finished-at="2022-06-26T16:05:18 IST" duration-ms="11012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="searchByAllCategory()[pri:3, instance:testclasses.VerifyHeaderHomePage@1ab3a8c8]" started-at="2022-06-26T16:05:18 IST" name="searchByAllCategory" finished-at="2022-06-26T16:05:18 IST" duration-ms="220" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[Element <select id="searchDropdownBox" class="nav-search-dropdown searchSelect nav-progressive-attrubute nav-progressive-search-dropdown" name="url"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.43.48', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 3252, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2e8ce923-378e-47f3-99b9-489c145704c9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <select id="searchDropdownBox" class="nav-search-dropdown searchSelect nav-progressive-attrubute nav-progressive-search-dropdown" name="url"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.43.48', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 3252, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2e8ce923-378e-47f3-99b9-489c145704c9
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+at pomClasses.HeaderHomePage.clickAllCategories(HeaderHomePage.java:34)
+at testclasses.VerifyHeaderHomePage.searchByAllCategory(VerifyHeaderHomePage.java:71)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByAllCategory -->
+        <test-method is-config="true" signature="logoutToApplication()[pri:0, instance:testclasses.VerifyHeaderHomePage@1ab3a8c8]" started-at="2022-06-26T16:05:18 IST" name="logoutToApplication" finished-at="2022-06-26T16:05:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutToApplication -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:testclasses.VerifyHeaderHomePage@1ab3a8c8]" started-at="2022-06-26T16:05:18 IST" name="clearObject" finished-at="2022-06-26T16:05:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:testclasses.VerifyHeaderHomePage@1ab3a8c8]" started-at="2022-06-26T16:05:18 IST" name="CloseBrowser" finished-at="2022-06-26T16:05:22 IST" duration-ms="3729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- testclasses.VerifyHeaderHomePage -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2022-06-26T16:05:22 IST" name="OperaTest" finished-at="2022-06-26T16:08:53 IST" duration-ms="211633">
+      <class name="testclasses.VerifyHeaderHomePage">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testclasses.VerifyHeaderHomePage@402bba4f]" started-at="2022-06-26T16:05:22 IST" name="launchBrowser" finished-at="2022-06-26T16:05:37 IST" duration-ms="15241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="POMObject()[pri:0, instance:testclasses.VerifyHeaderHomePage@402bba4f]" started-at="2022-06-26T16:05:37 IST" name="POMObject" finished-at="2022-06-26T16:05:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- POMObject -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:testclasses.VerifyHeaderHomePage@402bba4f]" started-at="2022-06-26T16:05:37 IST" name="loginToApplication" finished-at="2022-06-26T16:07:17 IST" duration-ms="99952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="search()[pri:1, instance:testclasses.VerifyHeaderHomePage@402bba4f]" started-at="2022-06-26T16:07:17 IST" name="search" finished-at="2022-06-26T16:07:57 IST" duration-ms="40674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="logoutToApplication()[pri:0, instance:testclasses.VerifyHeaderHomePage@402bba4f]" started-at="2022-06-26T16:07:57 IST" name="logoutToApplication" finished-at="2022-06-26T16:07:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutToApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:testclasses.VerifyHeaderHomePage@402bba4f]" started-at="2022-06-26T16:07:57 IST" name="loginToApplication" finished-at="2022-06-26T16:08:26 IST" duration-ms="28386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="urlandtitleverfy()[pri:2, instance:testclasses.VerifyHeaderHomePage@402bba4f]" started-at="2022-06-26T16:08:26 IST" name="urlandtitleverfy" finished-at="2022-06-26T16:08:26 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlandtitleverfy -->
+        <test-method is-config="true" signature="logoutToApplication()[pri:0, instance:testclasses.VerifyHeaderHomePage@402bba4f]" started-at="2022-06-26T16:08:26 IST" name="logoutToApplication" finished-at="2022-06-26T16:08:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutToApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:testclasses.VerifyHeaderHomePage@402bba4f]" started-at="2022-06-26T16:08:26 IST" name="loginToApplication" finished-at="2022-06-26T16:08:32 IST" duration-ms="5872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="searchByAllCategory()[pri:3, instance:testclasses.VerifyHeaderHomePage@402bba4f]" started-at="2022-06-26T16:08:32 IST" name="searchByAllCategory" finished-at="2022-06-26T16:08:53 IST" duration-ms="20840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByAllCategory -->
+        <test-method is-config="true" signature="logoutToApplication()[pri:0, instance:testclasses.VerifyHeaderHomePage@402bba4f]" started-at="2022-06-26T16:08:53 IST" name="logoutToApplication" finished-at="2022-06-26T16:08:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutToApplication -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:testclasses.VerifyHeaderHomePage@402bba4f]" started-at="2022-06-26T16:08:53 IST" name="clearObject" finished-at="2022-06-26T16:08:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:testclasses.VerifyHeaderHomePage@402bba4f]" started-at="2022-06-26T16:08:53 IST" name="CloseBrowser" finished-at="2022-06-26T16:08:53 IST" duration-ms="611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- testclasses.VerifyHeaderHomePage -->
+    </test> <!-- OperaTest -->
+  </suite> <!-- Suite -->
+</testng-results>
